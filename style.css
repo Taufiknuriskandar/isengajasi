@@ -11,11 +11,12 @@ body {
 .container {
     text-align: center;
     background-color: #ffffff;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;  /* Membatasi lebar container */
-    width: 100%;
+    max-width: 7500px;  /* Membatasi lebar container */
+    width: 90%;  /* Mengatur lebar container agar fleksibel */
+    margin: 20px; /* Memberikan margin untuk ruang di sekitar container */
 }
 
 .header_text {
@@ -26,7 +27,7 @@ body {
 
 .coffee_image {
     width: 100%;
-    max-width: 250px;
+    max-width: 150px;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
@@ -72,5 +73,20 @@ body {
     .btn {
         padding: 10px 20px;
         font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_text {
+        font-size: 18px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .coffee_image {
+        max-width: 180px;
     }
 }
