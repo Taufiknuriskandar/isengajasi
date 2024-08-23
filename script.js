@@ -1,5 +1,5 @@
 function redirectToWhatsApp() {
-    const url = "https://wa.me/62895351826933?text=iyaa%20aku%20mau";
+    const url = "https://wa.me/62895351826933?text=hii%20a%20,";
     window.location.href = url;
 }
 
